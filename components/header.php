@@ -5,9 +5,9 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
     // for use on laptop
-    define('ROOT_DIR', 'http://localhost:8040/hr/');
+    // define('ROOT_DIR', 'http://localhost:8040/hr/');
 // for use on college pc in room 13
-    // define('ROOT_DIR', 'http://localhost/hr/');
+    define('ROOT_DIR', 'http://localhost/karen/hr/');
 ?>
 <!doctype html>
 <html lang="en">
@@ -42,7 +42,7 @@
     <title>Work with us | Glasgow Clyde College </title>
 
         <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/scss/app.css">
+        <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/css/app.css">
 
     </head>
 <body class="bg-white">

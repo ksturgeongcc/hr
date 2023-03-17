@@ -1,0 +1,31 @@
+/* global variables */
+:root{
+    --color-purple: #b41e8e;
+    --color-orange: #ffa400;
+}
+
+/* index page - overriding tailwind components */
+.home{
+    height: 50vh !important;
+}
+.home > .overlay{
+    height: 100%;
+}
+/* buttons */
+.bg-purple{
+    background-color: var(--color-purple);
+}
+.outline-purple{
+    border: var(--color-purple) 2px solid
+}
+.color-purple{
+    color: var(--color-purple);
+
+}
+.outline-orange{
+    border: var(--color-orange) 2px solid;
+}
+.color-orange{
+    color: var(--color-orange);
+
+}

@@ -3,16 +3,16 @@ include 'components/header.php';
 include 'components/navigation.php';
 // header 
 ?>
-<header id="up" class="bg-center bg-fixed bg-no-repeat bg-center bg-cover h-screen relative" style="background-image: url(assets/images/header-index.jpg);">
+<header id="up" class="home bg-center bg-fixed bg-no-repeat bg-center bg-cover relative" style="background-image: url(assets/images/header-index.jpg);">
 <!-- Overlay Background + Center Control -->
-<div class="h-screen bg-opacity-50 bg-black flex items-center justify-center">
+<div class="overlay bg-opacity-50 bg-black flex items-center justify-center">
     <div class="mx-2 text-center">
         <h1 class="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl">
             Work with us
            </h1>
            <div class="inline-flex">
-           <button class="p-2 my-5 mx-2 bg-indigo-700 hover:bg-indigo-800 font-bold text-white rounded border-2 border-transparent hover:border-indigo-800 shadow-md transition duration-500 md:text-xl">Vacancies</button>
-           <a href="#about"><button class="p-2 my-5 mx-2 bg-transparent border-2 bg-indigo-200 bg-opacity-75 hover:bg-opacity-100 border-indigo-700 rounded hover:border-indigo-800 font-bold text-indigo-800 shadow-md transition duration-500 md:text-lg">Benefits</button></a>
+           <button class="p-2 my-5 mx-2 bg-purple font-bold text-white rounded border-2 border-transparent shadow-md transition duration-500 md:text-xl">Vacancies</button>
+           <a href="#about"><button class="p-2 my-5 mx-2 bg-transparent outline-orange bg-opacity-75 hover:bg-opacity-100  rounded  font-bold color-orange shadow-md transition duration-500 md:text-lg">Benefits</button></a>
            </div>
         </div>
     </div>
@@ -22,18 +22,15 @@ include 'components/navigation.php';
   <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
   <div class="2xl:mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
     <div role="main" class="flex flex-col items-center justify-center">
-      <h1 class="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">This Week Blogs</h1>
-      <p class="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough</p>
+      <h1 class="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">Careers at Glasgow Clyde</h1>
     </div>
     <div class="lg:flex items-stretch md:mt-12 mt-8">
       <div class="lg:w-1/2">
         <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6">
           <div class="sm:w-1/2 relative">
             <div>
-              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
               <div class="absolute bottom-0 left-0 p-6">
-                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <h2 class="text-xl font-semibold 5 text-white">About Us</h2>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                   <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                   <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,10 +43,8 @@ include 'components/navigation.php';
           </div>
           <div class="sm:w-1/2 sm:mt-0 mt-4 relative">
             <div>
-              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
               <div class="absolute bottom-0 left-0 p-6">
-                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <h2 class="text-xl font-semibold 5 text-white">Working at GCC</h2>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                   <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                   <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,10 +58,8 @@ include 'components/navigation.php';
         </div>
         <div class="relative">
           <div>
-            <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
             <div class="absolute bottom-0 left-0 md:p-10 p-6">
-              <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-              <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+            <h2 class="text-xl font-semibold 5 text-white">Employer of Choice</h2>
               <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                 <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                 <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,10 +75,8 @@ include 'components/navigation.php';
       <div class="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
         <div class="relative">
           <div>
-            <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
             <div class="absolute bottom-0 left-0 md:p-10 p-6">
-              <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-              <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+              <h2 class="text-xl font-semibold 5 text-white">Benefits of workng with GCC</h2>
               <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                 <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                 <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,10 +91,8 @@ include 'components/navigation.php';
         <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
           <div class="relative w-full">
             <div>
-              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
               <div class="absolute bottom-0 left-0 p-6">
-                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <h2 class="text-xl font-semibold 5 text-white">Our Stories</h2>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                   <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                   <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,10 +105,8 @@ include 'components/navigation.php';
           </div>
           <div class="relative w-full sm:mt-0 mt-4">
             <div>
-              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
               <div class="absolute bottom-0 left-0 p-6">
-                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <h2 class="text-xl font-semibold 5 text-white">FAQs</h2>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                   <p class="pr-2 text-sm font-medium leading-none">Read More</p>
                   <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
