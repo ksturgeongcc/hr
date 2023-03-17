@@ -42,7 +42,7 @@
     <title>Work with us | Glasgow Clyde College </title>
 
         <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/css/app.css">
+        <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/scss/app.css">
 
     </head>
 <body class="bg-white">

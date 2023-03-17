@@ -1,0 +1,28 @@
+@import 'variable';
+
+
+/* index page - overriding tailwind components */
+.home{
+    height: 50vh !important;
+    .overlay{
+        height: 100%;
+    }
+}
+
+.bg-purple{
+    background-color: $purple;
+}
+.outline-purple{
+    border: $purple 2px solid
+}
+.color-purple{
+    color: $purple;
+
+}
+.outline-orange{
+    border: $orange 2px solid;
+}
+.color-orange{
+    color: $orange;
+
+}

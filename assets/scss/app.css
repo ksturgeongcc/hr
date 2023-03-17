@@ -1,0 +1,28 @@
+/* global variables */
+/* index page - overriding tailwind components */
+.home {
+  height: 50vh !important;
+}
+.home .overlay {
+  height: 100%;
+}
+
+.bg-purple {
+  background-color: #b41e8e;
+}
+
+.outline-purple {
+  border: #b41e8e 2px solid;
+}
+
+.color-purple {
+  color: #b41e8e;
+}
+
+.outline-orange {
+  border: #ffa400 2px solid;
+}
+
+.color-orange {
+  color: #ffa400;
+}/*# sourceMappingURL=app.css.map */
